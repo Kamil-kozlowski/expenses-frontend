@@ -10,11 +10,11 @@ Kamil Kozłowski
 
 
 Wykorzystane technologie:
-- React
-- React router
-- React bootstrap
-- Axios
-- JWT obsługiwane przy pomocy local storage
+- React (wykorzystanie hooków stanu, efektu oraz stworzenie customowego hooku do uwierzytelniania)
+- React router (wykorzystane do nawigowania i utworzenia zabezpieczonych ścieżek)
+- React bootstrap (responsywność)
+- Axios (z wykorzystaniem interceptorów)
+- JWT (obsługiwane przy pomocy local storage)
 
 Aby uruchomić aplikację:
 
@@ -40,7 +40,7 @@ Formularz dodawania wydatku:
 ![Ekran logowania](https://github.com/Kamil-kozlowski/expenses-frontend/blob/master/public/4.png)
 
 
-Aplikacja stworzona w oparciu o create-react-app (więcej info poniżej)
+Aplikacja stworzona w oparciu o bolierplate create-react-app (więcej info poniżej)
 
 # Getting Started with Create React App
 
