@@ -4,7 +4,7 @@ Oparta na REST API aplikacji bazodanowej: https://github.com/Kamil-kozlowski/exp
 
 Twórcy:
 
-Karolina Mierzejewska
+Karolina Mierzejewska (https://github.com/karmier)
 
 Kamil Kozłowski
 
