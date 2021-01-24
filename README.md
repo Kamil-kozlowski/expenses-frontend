@@ -1,3 +1,47 @@
+Aplikacja służąca do rejestrowania własnych wydatków.
+
+Oparta na REST API aplikacji bazodanowej: https://github.com/Kamil-kozlowski/expenses-backend.
+
+Twórcy:
+
+Karolina Mierzejewska
+
+Kamil Kozłowski
+
+
+Wykorzystane technologie:
+- React
+- React router
+- React bootstrap
+- Axios
+- JWT obsługiwane przy pomocy local storage
+
+Aby uruchomić aplikację:
+
+`npm i`
+
+`npm start`
+
+Ekran logowania - można skorzystać z testowego `admin/admin`.
+
+![Ekran logowania](https://github.com/Kamil-kozlowski/expenses-frontend/blob/master/public/1.png)
+
+Lista wydatków oraz kategorii przedstawiona jest w postaci responsywnych tabeli - elementy można usuwać lub edytować ich wartości. 
+Niemożliwe jednak będzie usunięcie kategorii, do której przypisane są wydatki.
+
+![Ekran logowania](https://github.com/Kamil-kozlowski/expenses-frontend/blob/master/public/2.png)
+
+W celu dodania kategorii lub wydatku należy wybrać menu->add->category/expense
+
+![Ekran logowania](https://github.com/Kamil-kozlowski/expenses-frontend/blob/master/public/3.png)
+
+Formularz dodawania wydatku:
+
+![Ekran logowania](https://github.com/Kamil-kozlowski/expenses-frontend/blob/master/public/4.png)
+
+
+Aplikacja stworzona w oparciu o create-react-app (więcej info poniżej)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
